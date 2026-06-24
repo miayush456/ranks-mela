@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JEE Mains</title>
+    <style>
+        .buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .btn-physics {
+            padding: 15px 40px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn-chemistry {
+            padding: 15px 40px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            background-color: #27ae60;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn-maths {
+            padding: 15px 40px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            background-color: #8e44ad;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn-physics:hover { background-color: #c0392b; }
+        .btn-chemistry:hover { background-color: #1e8449; }
+        .btn-maths:hover { background-color: #6c3483; }
+    </style>
+</head>
+<body>
+    <h1>JEE Mains</h1>
+    <div class="buttons">
+        <button class="btn-physics" onclick="window.location.href='physics.html'">Physics</button>
+        <button class="btn-chemistry" onclick="window.location.href='chemistry.html'">Chemistry</button>
+        <button class="btn-maths" onclick="window.location.href='maths.html'">Maths</button>
+    </div>
+</body>
+</html>
