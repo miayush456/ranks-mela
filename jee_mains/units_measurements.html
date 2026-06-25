@@ -82,6 +82,19 @@
         .result.correct { color: #27ae60; }
         .result.wrong { color: #e74c3c; }
 
+        /* ✅ NAYA: Explanation box */
+        .explanation {
+            background: #f0f7ff;
+            border-left: 4px solid #4a90e2;
+            padding: 12px 16px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            color: #333;
+            margin-bottom: 20px;
+            line-height: 1.6;
+            display: none;
+        }
+
         .nav-btns {
             display: flex;
             justify-content: space-between;
@@ -115,10 +128,11 @@
 <body>
 
 <div class="quiz-box">
-    <div class="question-number" id="qNumber"></div>
+    <div class="question-number" id="qNumber">Loading...</div>
     <div class="question" id="question"></div>
     <div class="options" id="options"></div>
     <div class="result" id="result"></div>
+    <div class="explanation" id="explanation"></div>
     <div class="nav-btns">
         <button class="nav-btn back-btn" onclick="navigate(-1)">⬅ Back</button>
         <button class="nav-btn next-btn" onclick="navigate(1)">Next ➡</button>
@@ -128,74 +142,51 @@
 <script>
     const STORAGE_KEY = "units_measurements_answers";
 
-    const questions = [
-        {
-            q: "The SI unit of luminous intensity is?",
-            options: ["Lumen", "Candela", "Lux", "Watt"],
-            answer: 1
-        },
-        {
-            q: "Which of the following is a dimensionless quantity?",
-            options: ["Force", "Strain", "Velocity", "Pressure"],
-            answer: 1
-        },
-        {
-            q: "1 Angstrom is equal to?",
-            options: ["10⁻⁶ m", "10⁻⁹ m", "10⁻¹⁰ m", "10⁻¹² m"],
-            answer: 2
-        },
-        {
-            q: "The dimensional formula of power is?",
-            options: ["[ML²T⁻²]", "[ML²T⁻³]", "[MLT⁻²]", "[ML³T⁻³]"],
-            answer: 1
-        },
-        {
-            q: "Which of the following pairs have the same dimensions?",
-            options: ["Work and Power", "Torque and Energy", "Force and Momentum", "Impulse and Pressure"],
-            answer: 1
-        },
-        {
-            q: "The number of significant figures in 0.00340 is?",
-            options: ["5", "6", "3", "2"],
-            answer: 2
-        },
-        {
-            q: "Which instrument has the least count of 0.001 mm?",
-            options: ["Screw Gauge", "Vernier Caliper", "Meter Scale", "Micrometer"],
-            answer: 3
-        },
-        {
-            q: "The dimensional formula of gravitational constant G is?",
-            options: ["[M⁻¹L³T⁻²]", "[ML³T⁻²]", "[M⁻¹L²T⁻²]", "[ML²T⁻²]"],
-            answer: 0
-        },
-        {
-            q: "Light year is a unit of?",
-            options: ["Time", "Speed", "Distance", "Energy"],
-            answer: 2
-        },
-        {
-            q: "Which of the following is NOT a fundamental unit in SI system?",
-            options: ["Kelvin", "Mole", "Newton", "Candela"],
-            answer: 2
-        }
-    ];
-
+    // ✅ CHANGE 1: questions array ab khaali hai — JSON se bharega
+    let questions = [];
     let current = 0;
+    let userAnswers = [];
 
-    // localStorage se answers load karo
-    let userAnswers = JSON.parse(localStorage.getItem(STORAGE_KEY)) || new Array(questions.length).fill(null);
+    // ✅ CHANGE 2: JSON file se questions load karo
+    async function loadQuestions() {
+        try {
+            const response = await fetch('data/units_measurements.json');
+            questions = await response.json();
+
+            // localStorage se purane answers lo, nahi toh naye banao
+            const saved = localStorage.getItem(STORAGE_KEY);
+            if (saved) {
+                userAnswers = JSON.parse(saved);
+            } else {
+                userAnswers = new Array(questions.length).fill(null);
+            }
+
+            loadQuestion(); // questions aane ke baad pehla question dikhao
+
+        } catch (error) {
+            document.getElementById('qNumber').textContent = '❌ Error!';
+            document.getElementById('question').textContent =
+                'Questions load nahi hue. "data" folder aur JSON file check karo.';
+        }
+    }
 
     function saveAnswers() {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(userAnswers));
     }
 
+    // ✅ CHANGE 3: q.q ki jagah q.question likha (JSON format ke hisaab se)
     function loadQuestion() {
         const q = questions[current];
-        document.getElementById('qNumber').textContent = `Question ${current + 1} of ${questions.length}`;
-        document.getElementById('question').textContent = q.q;
+        if (!q) return;
+
+        document.getElementById('qNumber').textContent =
+            `Question ${current + 1} of ${questions.length}` +
+            (q.year ? `  |  📅 ${q.year}` : '');
+
+        document.getElementById('question').textContent = q.question; // ← q.q se q.question
         document.getElementById('result').textContent = '';
         document.getElementById('result').className = 'result';
+        document.getElementById('explanation').style.display = 'none';
 
         const optionsDiv = document.getElementById('options');
         optionsDiv.innerHTML = '';
@@ -224,6 +215,12 @@
                 document.getElementById('result').textContent = '❌ Wrong Answer!';
                 document.getElementById('result').className = 'result wrong';
             }
+
+            // explanation bhi dikhao
+            if (q.explanation) {
+                document.getElementById('explanation').textContent = '💡 ' + q.explanation;
+                document.getElementById('explanation').style.display = 'block';
+            }
         }
     }
 
@@ -232,7 +229,7 @@
 
         const q = questions[current];
         userAnswers[current] = selected;
-        saveAnswers(); // localStorage mein save karo
+        saveAnswers();
 
         const buttons = document.querySelectorAll('.option-btn');
         buttons.forEach(btn => btn.disabled = true);
@@ -247,6 +244,12 @@
             document.getElementById('result').textContent = '❌ Wrong Answer!';
             document.getElementById('result').className = 'result wrong';
         }
+
+        // ✅ Explanation dikhao
+        if (q.explanation) {
+            document.getElementById('explanation').textContent = '💡 ' + q.explanation;
+            document.getElementById('explanation').style.display = 'block';
+        }
     }
 
     function navigate(dir) {
@@ -256,7 +259,8 @@
         loadQuestion();
     }
 
-    loadQuestion();
+    // ✅ CHANGE 4: loadQuestion() ki jagah loadQuestions() — JSON fetch shuru karega
+    loadQuestions();
 </script>
 
 </body>

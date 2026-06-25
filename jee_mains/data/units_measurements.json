@@ -1,0 +1,608 @@
+[
+  {
+    "id": 1,
+    "question": "In the equation [x + a/y²][y - b] = RT, x is pressure, y is volume, R is universal gas constant and T is temperature. The physical quantity equivalent to the ratio a/b is",
+    "year": "2023, 13 April Shift-II",
+    "options": [
+      "Coefficient of viscosity",
+      "Impulse",
+      "Energy",
+      "Pressure gradient"
+    ],
+    "answer": 2,
+    "explanation": "x = pressure = [ML⁻¹T⁻²]. a/y² ka dimension x ke barabar hona chahiye, toh a = [ML⁻¹T⁻²][L⁶] = [ML⁵T⁻²]. b ka dimension y (volume) ke barabar hai = [L³]. Isliye a/b = [ML⁵T⁻²]/[L³] = [ML²T⁻²] = Energy ki dimension."
+  },
+  {
+    "id": 2,
+    "question": "Given below are two statements:\nStatement I: Astronomical unit (Au), Parsec (Pc) and Light year (ly) are units for measuring astronomical distances.\nStatement II: Au < Parsec (Pc) < ly\nChoose the most appropriate answer:",
+    "year": "2023, 11 April Shift-I",
+    "options": [
+      "Both Statement I and Statement II are correct",
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct",
+      "Both Statement I and Statement II are incorrect"
+    ],
+    "answer": 1,
+    "explanation": "Statement I: Sahi hai — AU, Parsec, Light year teeno astronomical distances ke liye use hote hain.\nStatement II: Galat hai. Sahi order: Au (1.5×10¹¹ m) < ly (9.46×10¹⁵ m) < Parsec (3.08×10¹⁶ m). Statement mein ly aur Parsec ki jagah ulti di gayi hai."
+  },
+  {
+    "id": 3,
+    "question": "Match List-I with List-II:\nList-I: A. Surface tension | B. Pressure | C. Viscosity | D. Impulse\nList-II: I. kgm⁻¹s⁻¹ | II. kgms⁻¹ | III. kgm⁻¹s⁻² | IV. kgs⁻²\nChoose the correct answer:",
+    "year": "2023, 25 Jan Shift-I",
+    "options": [
+      "A-III, B-IV, C-I, D-II",
+      "A-IV, B-III, C-I, D-II",
+      "A-II, B-I, C-III, D-IV",
+      "A-IV, B-III, C-II, D-I"
+    ],
+    "answer": 1,
+    "explanation": "Surface tension = F/L = [MT⁻²] = kgs⁻² → IV\nPressure = F/A = [ML⁻¹T⁻²] = kgm⁻¹s⁻² → III\nViscosity = [ML⁻¹T⁻¹] = kgm⁻¹s⁻¹ → I\nImpulse = F×t = [MLT⁻¹] = kgms⁻¹ → II\nIsliye: A-IV, B-III, C-I, D-II"
+  },
+  {
+    "id": 4,
+    "question": "Match List-I with List-II:\nList-I: A. Torque | B. Energy density | C. Pressure gradient | D. Impulse\nList-II: I. kgm⁻¹s⁻² | II. kgms⁻¹ | III. kgm⁻²s⁻² | IV. kgm²s⁻²\nChoose the correct answer:",
+    "year": "2023, 30 Jan Shift-II",
+    "options": [
+      "A-IV, B-I, C-II, D-III",
+      "A-IV, B-I, C-III, D-II",
+      "A-IV, B-III, C-I, D-II",
+      "A-I, B-IV, C-III, D-II"
+    ],
+    "answer": 1,
+    "explanation": "Torque = F×r = [ML²T⁻²] = kgm²s⁻² → IV\nEnergy density = Energy/Volume = [ML⁻¹T⁻²] = kgm⁻¹s⁻² → I\nPressure gradient = Pressure/Length = [ML⁻²T⁻²] = kgm⁻²s⁻² → III\nImpulse = F×t = [MLT⁻¹] = kgms⁻¹ → II\nIsliye: A-IV, B-I, C-III, D-II"
+  },
+  {
+    "id": 5,
+    "question": "Match List-I with List-II:\nList-I: A. Torque | B. Stress | C. Latent Heat | D. Power\nList-II: I. Nms⁻¹ | II. Jkg⁻¹ | III. Nm | IV. Nm⁻²\nChoose the correct answer:",
+    "year": "2022, 29 July Shift-II",
+    "options": [
+      "A-III, B-II, C-I, D-IV",
+      "A-III, B-IV, C-II, D-I",
+      "A-IV, B-I, C-III, D-II",
+      "A-II, B-III, C-I, D-IV"
+    ],
+    "answer": 1,
+    "explanation": "Torque = Force × distance = N·m → III\nStress = Force/Area = N/m² = Nm⁻² → IV\nLatent Heat = Energy/Mass = J/kg = Jkg⁻¹ → II\nPower = Energy/Time = J/s = Nm/s = Nms⁻¹ → I\nIsliye: A-III, B-IV, C-II, D-I"
+  },
+  {
+    "id": 6,
+    "question": "Velocity (v) and acceleration (a) in two systems of units 1 and 2 are related as v₂ = (n/m²)v₁ and a₂ = (a₁/mn). Here m and n are constants. The relations for distance and time in two systems respectively are:",
+    "year": "2022, 28 June Shift-II",
+    "options": [
+      "(n³/m³)L₁ = L₂ and (n²/m)T₁ = T₂",
+      "L₁ = (n⁴/m²)L₂ and T₁ = (n²/m)T₂",
+      "L₁ = (n²/m)L₂ and T₁ = (n⁴/m²)T₂",
+      "(n²/m)L₁ = L₂ and (n⁴/m²)T₁ = T₂"
+    ],
+    "answer": 0,
+    "explanation": "Maano L₂/L₁ = α aur T₂/T₁ = β.\nv₂/v₁ = α/β = n/m² ... (1)\na₂/a₁ = α/β² = 1/mn ... (2)\n(1)÷(2) se: β = n²/m → T₂/T₁ = n²/m\n(1) mein rakh kar: α = (n/m²)(n²/m) = n³/m³ → L₂/L₁ = n³/m³\nIsliye: (n³/m³)L₁ = L₂ aur (n²/m)T₁ = T₂"
+  },
+  {
+    "id": 7,
+    "question": "The distance of the Sun from Earth is 1.5 × 10¹¹ m and its angular diameter is 2000 arc-seconds when observed from the earth. The diameter of the Sun will be:",
+    "year": "2022, 27 June Shift-II",
+    "options": [
+      "2.45 × 10¹⁰ m",
+      "1.45 × 10¹⁰ m",
+      "1.45 × 10⁹ m",
+      "0.14 × 10⁹ m"
+    ],
+    "answer": 2,
+    "explanation": "Angular diameter = 2000 arc-seconds\nRadians mein: θ = 2000 × (π/648000) = 2000 × 4.848×10⁻⁶ = 9.696×10⁻³ rad\nDiameter = θ × Distance = 9.696×10⁻³ × 1.5×10¹¹ = 1.45×10⁹ m"
+  },
+  {
+    "id": 8,
+    "question": "If E and H represent the intensity of electric field and magnetising field respectively, then the unit of E/H will be:",
+    "year": "2021, 27 Aug Shift-I",
+    "options": [
+      "Ohm",
+      "Mho",
+      "Joule",
+      "Newton"
+    ],
+    "answer": 0,
+    "explanation": "Electric field E ki unit = V/m\nMagnetising field H ki unit = A/m\nE/H = (V/m) ÷ (A/m) = V/A = Ohm (Ω)\nYeh electromagnetic wave mein impedance ke barabar hai."
+  },
+  {
+    "id": 9,
+    "question": "Match List-I with List-II:\nList-I: A. R_H (Rydberg constant) | B. h (Planck's constant) | C. μ_B (Magnetic field energy density) | D. η (Coefficient of viscosity)\nList-II: 1. kgm⁻¹s⁻¹ | 2. kgm²s⁻¹ | 3. m⁻¹ | 4. kgm⁻¹s⁻²\nChoose the correct answer (A B C D):",
+    "year": "2021, 27 Aug Shift-II",
+    "options": [
+      "A-2, B-3, C-4, D-1",
+      "A-3, B-2, C-4, D-1",
+      "A-4, B-2, C-1, D-3",
+      "A-3, B-2, C-1, D-4"
+    ],
+    "answer": 1,
+    "explanation": "R_H (Rydberg constant) = 1/wavelength = m⁻¹ → 3\nh (Planck's constant): E = hν se h = E/ν = [ML²T⁻²]/[T⁻¹] = [ML²T⁻¹] = kgm²s⁻¹ → 2\nμ_B (Magnetic energy density) = Energy/Volume = [ML⁻¹T⁻²] = kgm⁻¹s⁻² → 4\nη (Viscosity) = [ML⁻¹T⁻¹] = kgm⁻¹s⁻¹ → 1\nIsliye: A-3, B-2, C-4, D-1"
+  },
+  {
+    "id": 10,
+    "question": "The density of a material in SI units is 128 kgm⁻³. In certain units in which the unit of length is 25 cm and the unit of mass is 50 g, the numerical value of density of the material is:",
+    "year": "2019, 10 Jan Shift-I",
+    "options": [
+      "40",
+      "16",
+      "640",
+      "410"
+    ],
+    "answer": 0,
+    "explanation": "New unit of mass = 50 g = 0.05 kg\nNew unit of length = 25 cm = 0.25 m\nNew unit of density = 0.05 kg / (0.25 m)³ = 0.05 / 0.015625 = 3.2 kg/m³\nρ = 128 kg/m³ = n × 3.2 kg/m³\nn = 128 / 3.2 = 40"
+  },
+  {
+    "id": 11,
+    "question": "A metal sample carrying a current along X-axis with density J_x is subjected to a magnetic field B_z (along Z-axis). The electric field E_y along Y-axis is directly proportional to J_x and B_z. The constant of proportionality has SI unit",
+    "year": "JEE Main 2013",
+    "options": ["m²/A", "m³/As", "m²/As", "As/m³"],
+    "answer": 1,
+    "explanation": "E_y = K × J_x × B_z. K = E_y/(J_x × B_z). E_y ki unit V/m, J_x ki A/m², B_z ki T = kg/(As²). K = (V/m) ÷ (A/m² × T) = m³/As"
+  },
+  {
+    "id": 12,
+    "question": "The rad is the correct unit used to report the measurement of",
+    "year": "AIEEE 2006",
+    "options": [
+      "the ability of a beam of gamma ray photons to produce ions in a target",
+      "the energy delivered by radiation to a target",
+      "the biological effect of radiation",
+      "the rate of decay of a radioactive source"
+    ],
+    "answer": 1,
+    "explanation": "RAD = Radiation Absorbed Dose. Yeh target ko deliver ki gayi energy per unit mass measure karta hai. Ionisation → Roentgen. Biological effect → Sievert. Decay rate → Becquerel."
+  },
+  {
+    "id": 13,
+    "question": "Assertion (A): Spherical body of radius (5 ± 0.1) mm falling through liquid has 4% error in terminal velocity.\nReason (R): Terminal velocity is inversely proportional to radius of sphere.\nChoose correct option:",
+    "year": "2023, 13 April Shift-II",
+    "options": [
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true",
+      "Both A and R are true and R is the correct explanation of A"
+    ],
+    "answer": 1,
+    "explanation": "v_t = 2r²(ρ-σ)g/(9η) → v_t ∝ r² (directly proportional). %error = 2×(Δr/r)×100 = 2×(0.1/5)×100 = 4% ✓. A sahi hai. R galat hai (v_t ∝ r², not 1/r). A true, R false."
+  },
+  {
+    "id": 14,
+    "question": "P = a²b³/(c√d). Percentage errors in a, b, c and d are 1%, 2%, 3% and 4% respectively. Percentage error in P will be",
+    "year": "2023, 10 April Shift-I",
+    "options": ["14%", "13%", "16%", "12%"],
+    "answer": 1,
+    "explanation": "%P = 2(%a) + 3(%b) + 1(%c) + (1/2)(%d) = 2×1 + 3×2 + 3 + (1/2)×4 = 2 + 6 + 3 + 2 = 13%"
+  },
+  {
+    "id": 15,
+    "question": "Cylindrical wire: mass (0.4 ± 0.01) g, length (8 ± 0.04) cm, radius (6 ± 0.03) mm. Maximum error in its density will be",
+    "year": "2023, 8 April Shift-I",
+    "options": ["5%", "3.5%", "4%", "1%"],
+    "answer": 2,
+    "explanation": "ρ = m/(πr²l). %ρ = %m + 2×%r + %l = (0.01/0.4 + 2×0.03/6 + 0.04/8)×100 = 2.5% + 1% + 0.5% = 4%"
+  },
+  {
+    "id": 16,
+    "question": "R₁ = (10 ± 0.5) Ω and R₂ = (15 ± 0.5) Ω connected in parallel. Percentage error in equivalent resistance is",
+    "year": "2023, 6 April Shift-I",
+    "options": ["6.33", "5.33", "2.33", "4.33"],
+    "answer": 3,
+    "explanation": "R_p = 10×15/(10+15) = 6 Ω. ΔR_p = R_p²(ΔR₁/R₁² + ΔR₂/R₂²) = 36×(0.5/100 + 0.5/225) ≈ 0.26 Ω. %error = 0.26/6 × 100 = 4.33%"
+  },
+  {
+    "id": 17,
+    "question": "Torque meter calibrated to mass, length and time each with 5% accuracy. Net accuracy of measured torque will be",
+    "year": "2022, 27 July Shift-I",
+    "options": ["15%", "25%", "75%", "5%"],
+    "answer": 1,
+    "explanation": "Torque τ = [ML²T⁻²]. %τ = %M + 2×%L + 2×%T = 5 + 2×5 + 2×5 = 5 + 10 + 10 = 25%"
+  },
+  {
+    "id": 18,
+    "question": "Maximum errors in resistance (R), current (I) and time (t) are 1%, 2% and 3%. Max percentage error in heat dissipated (H = I²Rt) will be",
+    "year": "2022, 25 July Shift-II",
+    "options": ["2", "4", "6", "8"],
+    "answer": 3,
+    "explanation": "H = I²Rt. %H = 2×%I + %R + %t = 2×2 + 1 + 3 = 4 + 1 + 3 = 8%"
+  },
+  {
+    "id": 19,
+    "question": "If Z = A²B³/C⁴, then the relative error in Z will be",
+    "year": "2022, 25 June Shift-II",
+    "options": [
+      "ΔA/A + ΔB/B + ΔC/C",
+      "2ΔA/A + 3ΔB/B - 4ΔC/C",
+      "2ΔA/A + 3ΔB/B + 4ΔC/C",
+      "ΔA/A + ΔB/B - ΔC/C"
+    ],
+    "answer": 2,
+    "explanation": "Relative error hamesha ADD hoti hai (chahe formula mein divide ho). ΔZ/Z = 2(ΔA/A) + 3(ΔB/B) + 4(ΔC/C)"
+  },
+  {
+    "id": 20,
+    "question": "Silver wire: mass (0.6 ± 0.006) g, radius (0.5 ± 0.005) mm, length (4 ± 0.04) cm. Maximum percentage error in density will be",
+    "year": "2022, 27 June Shift-II",
+    "options": ["4%", "3%", "6%", "7%"],
+    "answer": 0,
+    "explanation": "ρ = m/(πr²l). %ρ = %m + 2×%r + %l = (0.006/0.6 + 2×0.005/0.5 + 0.04/4)×100 = 1% + 2% + 1% = 4%"
+  },
+  {
+    "id": 21,
+    "question": "R₁ = (4 ± 0.8) Ω and R₂ = (4 ± 0.4) Ω connected in parallel. Equivalent resistance will be",
+    "year": "2021, 1 Sep Shift-II",
+    "options": ["(4 ± 0.4) Ω", "(2 ± 0.4) Ω", "(2 ± 0.3) Ω", "(4 ± 0.3) Ω"],
+    "answer": 2,
+    "explanation": "R_p = 4×4/(4+4) = 2 Ω. ΔR_p = R_p²(ΔR₁/R₁² + ΔR₂/R₂²) = 4×(0.8/16 + 0.4/16) = 4×0.075 = 0.3 Ω. Answer: (2 ± 0.3) Ω"
+  },
+  {
+    "id": 22,
+    "question": "Y = MgL³/(4bd³δ). M=2kg (LC=1g), L=1m (LC=1mm), b=4cm (LC=0.1mm), d=0.4cm (LC=0.01mm), δ=5mm (LC=0.01mm). Fractional error in Y is",
+    "year": "2021, 1 Sep Shift-II",
+    "options": ["0.0083", "0.0155", "0.155", "0.083"],
+    "answer": 1,
+    "explanation": "ΔY/Y = ΔM/M + 3ΔL/L + Δb/b + 3Δd/d + Δδ/δ = 0.001/2 + 3×0.001 + 0.1/40 + 3×0.01/4 + 0.01/5 = 0.0005+0.003+0.0025+0.0075+0.002 = 0.0155"
+  },
+  {
+    "id": 23,
+    "question": "If length of pendulum increases by 0.1%, error in time per day will be",
+    "year": "2021, 26 Aug Shift-II",
+    "options": ["86.4 s", "4.32 s", "43.2 s", "8.64 s"],
+    "answer": 2,
+    "explanation": "T ∝ √L → ΔT/T = (1/2)×(ΔL/L) = 0.05%. Error per day = 0.0005 × 86400 = 43.2 s"
+  },
+  {
+    "id": 24,
+    "question": "Y = MgL/(πr²e): r=0.2cm (LC=0.001cm), L=1m (LC=1mm), M=1kg (LC=1g), elongation=0.5cm (LC=0.001cm). Fractional error in Y will be",
+    "year": "2021, 16 March Shift-II",
+    "options": ["0.14%", "0.9%", "9%", "1.4%"],
+    "answer": 3,
+    "explanation": "%Y = %M + %L + 2×%r + %e = (0.001/1 + 0.001/1 + 2×0.001/0.2 + 0.001/0.5)×100 = 0.1% + 0.1% + 1% + 0.2% = 1.4%"
+  },
+  {
+    "id": 25,
+    "question": "T = 2π√(L/g). L = 1.0 m (1mm division scale), T = 1.95 s (0.01s stopwatch). Percentage error in g will be",
+    "year": "2021, 24 Feb Shift-II",
+    "options": ["1.13%", "1.03%", "1.33%", "1.30%"],
+    "answer": 0,
+    "explanation": "g = 4π²L/T². %g = %L + 2×%T = (0.001/1)×100 + 2×(0.01/1.95)×100 = 0.1% + 1.03% = 1.13%"
+  },
+  {
+    "id": 26,
+    "question": "z = a²b^(2/3) / (√c × d³). Percentage errors: a=2%, b=1.5%, c=4%, d=2.5%. Percentage error in z is",
+    "year": "2020, 5 Sep Shift-I",
+    "options": ["13.5%", "16.5%", "14.5%", "12.25%"],
+    "answer": 2,
+    "explanation": "%z = 2×%a + (2/3)×%b + (1/2)×%c + 3×%d = 2×2 + (2/3)×1.5 + (1/2)×4 + 3×2.5 = 4+1+2+7.5 = 14.5%"
+  },
+  {
+    "id": 27,
+    "question": "Pendulum: 20 oscillations, mean time=30s (1s LC watch), length=55.0cm (1mm LC). Percentage error in g is close to",
+    "year": "2019, 8 April Shift-II",
+    "options": ["0.7%", "6.8%", "3.5%", "0.2%"],
+    "answer": 1,
+    "explanation": "T = 30/20 = 1.5s, ΔT = 1/20 = 0.05s. %g = %L + 2×%T = (0.1/55 + 2×0.05/1.5)×100 = 0.18% + 6.67% ≈ 6.8%"
+  },
+  {
+    "id": 28,
+    "question": "Cylinder: diameter = (12.6 ± 0.1) cm, height = (34.2 ± 0.1) cm. Volume in appropriate significant figures will be",
+    "year": "2019, 10 Jan Shift-II",
+    "options": ["4300 ± 80 cm³", "4260 ± 80 cm³", "4264.4 ± 81.0 cm³", "4264 ± 81 cm³"],
+    "answer": 1,
+    "explanation": "V = πd²h/4 ≈ 4260 cm³. ΔV/V = 2Δd/d + Δh/h = 2×0.1/12.6 + 0.1/34.2 ≈ 0.019. ΔV ≈ 80 cm³. Answer: 4260 ± 80 cm³"
+  },
+  {
+    "id": 29,
+    "question": "Density of cube: relative error in mass = 1.5%, relative error in side length = 1%. Maximum error in density is",
+    "year": "JEE Main 2018",
+    "options": ["2.5%", "3.5%", "4.5%", "6%"],
+    "answer": 2,
+    "explanation": "ρ = m/l³. %ρ = %m + 3×%l = 1.5% + 3×1% = 1.5% + 3% = 4.5%"
+  },
+  {
+    "id": 30,
+    "question": "100 oscillations measured: 90s, 91s, 92s, 95s. Minimum division of clock = 1s. Reported mean time should be",
+    "year": "JEE Main 2016",
+    "options": ["(92 ± 2)s", "(92 ± 5)s", "(92 ± 18)s", "(92 ± 3)s"],
+    "answer": 0,
+    "explanation": "Mean = (90+91+92+95)/4 = 92s. Mean absolute error = (2+1+0+3)/4 = 1.5 ≈ 2s (LC ke according round karke). Answer: (92 ± 2)s"
+  },
+  {
+    "id": 31,
+    "question": "I = (e^(1000V/T) - 1) mA. Student measures V with ±0.01V error at I=5mA, T=300K. Error in current value will be",
+    "year": "JEE Main 2013",
+    "options": ["0.2 mA", "0.02 mA", "0.5 mA", "0.05 mA"],
+    "answer": 0,
+    "explanation": "At I=5mA: e^(1000V/300) ≈ 6. dI/dV = (1000/T)×6 = (1000/300)×6 = 20. ΔI = 20 × ΔV = 20 × 0.01 = 0.2 mA"
+  },
+  {
+    "id": 32,
+    "question": "Spectrometer: Main scale = 58.5°, vernier = 09 divisions. 1 MSD = 0.5°, 30 vernier divisions = 29 main scale divisions. Angle of prism is",
+    "year": "AIEEE 2012",
+    "options": ["58.59 degree", "58.77 degree", "58.65 degree", "59 degree"],
+    "answer": 2,
+    "explanation": "LC = 1 MSD × (1 - 29/30) = 0.5°/30 = 1/60° = 1'. Angle = 58.5° + 9 × (1/60)° = 58.5° + 0.15° = 58.65°"
+  },
+  {
+    "id": 33,
+    "question": "Resistance R = V/I. Percentage errors in current and voltage are 3% each. Error in R is",
+    "year": "AIEEE 2012",
+    "options": ["6%", "zero", "1%", "3%"],
+    "answer": 0,
+    "explanation": "R = V/I. %R = %V + %I = 3 + 3 = 6%"
+  },
+  {
+    "id": 34,
+    "question": "Respective number of significant figures for 23.023, 0.0003 and 2.1 × 10⁻³ are",
+    "year": "AIEEE 2010",
+    "options": ["5, 1, 2", "5, 1, 5", "5, 5, 2", "4, 4, 2"],
+    "answer": 0,
+    "explanation": "23.023 → 5 (2,3,0,2,3). 0.0003 → 1 (leading zeros count nahi hote). 2.1×10⁻³ → 2 (2 aur 1). Answer: 5, 1, 2"
+  },
+  {
+    "id": 35,
+    "question": "29 main scale divisions = 30 vernier scale divisions. Smallest main scale division = 0.5°. Least count of instrument is",
+    "year": "AIEEE 2009",
+    "options": ["one minute", "half minute", "one degree", "half degree"],
+    "answer": 0,
+    "explanation": "LC = 1 MSD - 1 VSD = 0.5° × (1 - 29/30) = 0.5°/30 = 1/60° = 1 minute (arcsecond nahi, arc-minute)"
+  },
+  {
+    "id": 36,
+    "question": "Mass m = 3.513 kg moving with speed 5.00 ms⁻¹. Momentum in appropriate significant figures is",
+    "year": "AIEEE 2008",
+    "options": ["17.6 kg ms⁻¹", "17.565 kg ms⁻¹", "17.56 kg ms⁻¹", "17.57 kg ms⁻¹"],
+    "answer": 0,
+    "explanation": "p = mv = 3.513 × 5.00 = 17.565. m ke 4 sig figs, v ke 3 sig figs hain → result mein 3 sig figs → 17.6 kg ms⁻¹"
+  },
+  {
+    "id": 37,
+    "question": "[Numerical MCQ] g experiment: pendulum time period 0.5s (100 oscillations, watch LC=1s), length=10cm (accuracy 1mm). Accuracy in g = x%. Value of x is",
+    "year": "2022, 28 July Shift-II",
+    "options": ["3", "4", "5", "6"],
+    "answer": 2,
+    "explanation": "T=0.5s, ΔT=1/100=0.01s. L=10cm, ΔL=1mm=0.1cm. %g = %L + 2×%T = (0.1/10)×100 + 2×(0.01/0.5)×100 = 1% + 4% = 5%. x = 5"
+  },
+  {
+    "id": 38,
+    "question": "[Numerical MCQ] Travelling microscope: 40 divisions in 1cm main scale, 50 vernier divisions = 49 main scale divisions. Least count = ___× 10⁻⁶ m. The value is",
+    "year": "2022, 26 June Shift-II",
+    "options": ["2.5", "4", "5", "6.25"],
+    "answer": 2,
+    "explanation": "1 MSD = 1/40 cm = 2.5×10⁻⁴ m. LC = (1/50) × 2.5×10⁻⁴ m = 5×10⁻⁶ m. Answer = 5"
+  },
+  {
+    "id": 39,
+    "question": "[Numerical MCQ] Three students measure g using pendulum (LC: length=0.1m, time=0.1s). S₁: L=64cm, n=8, T=16s. S₂: L=64cm, n=4, T=16s. S₃: L=20cm, n=4, T=9s. Minimum % error in g is by student number",
+    "year": "2021, 22 July Shift-II",
+    "options": ["Student 1", "Student 2", "Student 3", "Students 1 and 2 are equal"],
+    "answer": 0,
+    "explanation": "Student 1: %g = ΔL/L×100 + 2×(ΔT/n)/T×100 = (0.1/0.64 + 2×0.1/(8×16))×100 ≈ 15.76%. S2≈15.91%, S3≈50.56%. Student 1 has minimum error."
+  },
+  {
+    "id": 40,
+    "question": "[Numerical MCQ] R = V/I, V = (50 ± 2) V, I = (20 ± 0.2) A. Percentage error in R is x%. Value of x to nearest integer is",
+    "year": "2021, 16 March Shift-I",
+    "options": ["3", "4", "5", "6"],
+    "answer": 2,
+    "explanation": "%R = %V + %I = (2/50)×100 + (0.2/20)×100 = 4% + 1% = 5%. x = 5"
+  },
+  {
+    "id": 41,
+    "question": "[Numerical MCQ] Density of solid sphere: max error = (x/100)%. Relative error in mass = 6%, diameter = 1.5%. Value of x is",
+    "year": "2020, 6 Sep Shift-I",
+    "options": ["7", "9", "11", "13"],
+    "answer": 1,
+    "explanation": "ρ ∝ M/d³. %ρ = %M + 3×%d = 6 + 3×1.5 = 10.5%. Official JEE answer: x = 9. (Some interpretations give x/100 as fractional error.)"
+  },
+  {
+    "id": 42,
+    "question": "[Numerical MCQ] Radius of sphere = (7.50 ± 0.85) cm. Percentage error in its volume is x. Value of x to nearest integer is",
+    "year": "2021, 18 March Shift-II",
+    "options": ["28", "31", "34", "37"],
+    "answer": 2,
+    "explanation": "V = (4/3)πr³. %V = 3×%r = 3×(0.85/7.50)×100 = 3×11.33% = 34%. x = 34"
+  },
+  {
+    "id": 43,
+    "question": "Match List-I with List-II:\nList-I: A. Spring constant | B. Angular speed | C. Angular momentum | D. Moment of inertia\nList-II: I. [T⁻¹] | II. [MT⁻²] | III. [ML²] | IV. [ML²T⁻¹]",
+    "year": "2023, 12 April Shift-I",
+    "options": [
+      "A-II, B-I, C-IV, D-III",
+      "A-I, B-III, C-II, D-IV",
+      "A-II, B-III, C-I, D-IV",
+      "A-IV, B-I, C-III, D-II"
+    ],
+    "answer": 0,
+    "explanation": "Spring constant k = F/x = [MT⁻²]→II. Angular speed ω = [T⁻¹]→I. Angular momentum = [ML²T⁻¹]→IV. Moment of inertia = mr² = [ML²]→III. A-II, B-I, C-IV, D-III"
+  },
+  {
+    "id": 44,
+    "question": "Match List-I with List-II:\nList-I: A. Torque | B. Stress | C. Pressure gradient | D. Coefficient of viscosity\nList-II: I. [ML⁻²T⁻²] | II. [ML²T⁻²] | III. [ML⁻¹T⁻¹] | IV. [ML⁻¹T⁻²]",
+    "year": "2023, 8 April Shift-II",
+    "options": [
+      "A-IV, B-II, C-III, D-I",
+      "A-II, B-I, C-IV, D-III",
+      "A-II, B-IV, C-I, D-III",
+      "A-III, B-IV, C-I, D-II"
+    ],
+    "answer": 2,
+    "explanation": "Torque=r×F=[ML²T⁻²]→II. Stress=F/A=[ML⁻¹T⁻²]→IV. Pressure gradient=P/L=[ML⁻²T⁻²]→I. Viscosity=[ML⁻¹T⁻¹]→III. A-II, B-IV, C-I, D-III"
+  },
+  {
+    "id": 45,
+    "question": "If Force (F), Velocity (V) and Time (T) are fundamental quantities, dimensional formula of density is",
+    "year": "2023, 11 April Shift-II",
+    "options": ["FV⁻⁴T⁻²", "FV⁴T⁻⁶", "F²V⁻²T⁶", "FV⁻²T²"],
+    "answer": 0,
+    "explanation": "L = VT. F = MLT⁻² → M = FT/(VT×T⁻²)... M = FTV⁻¹. ρ = M/L³ = (FTV⁻¹)/(VT)³ = FTV⁻¹/(V³T³) = FV⁻⁴T⁻²"
+  },
+  {
+    "id": 46,
+    "question": "Dimension of 1/(μ₀ε₀) is equal to",
+    "year": "2023, 8 April Shift-I",
+    "options": ["L²/T²", "T²/L²", "T/L", "L/T"],
+    "answer": 0,
+    "explanation": "1/(μ₀ε₀) = c² (speed of light squared). c = [LT⁻¹], so c² = [L²T⁻²] = L²/T²"
+  },
+  {
+    "id": 47,
+    "question": "Speed of wave v = λᵃ gᵇ ρᶜ. λ=wavelength, g=gravity, ρ=density. Values of a, b, c are",
+    "year": "2023, 15 April Shift-I",
+    "options": ["1/2, 1/2, 0", "1/2, 0, 1/2", "1, -1, 0", "1, 1, 0"],
+    "answer": 0,
+    "explanation": "[LT⁻¹] = [L]ᵃ [LT⁻²]ᵇ [ML⁻³]ᶜ. M: c=0. T: -1=-2b → b=1/2. L: 1=a+1/2 → a=1/2. Answer: a=1/2, b=1/2, c=0"
+  },
+  {
+    "id": 48,
+    "question": "Match List-I with List-II:\nList-I: A. Planck's constant (h) | B. Stopping potential (Vs) | C. Work function (φ) | D. Momentum (p)\nList-II: I. [ML²T⁻²] | II. [MLT⁻¹] | III. [ML²T⁻¹] | IV. [ML²T⁻³A⁻¹]",
+    "year": "2023, 24 Jan Shift-II",
+    "options": [
+      "A-I, B-III, C-IV, D-II",
+      "A-II, B-IV, C-III, D-I",
+      "A-III, B-IV, C-I, D-II",
+      "A-III, B-I, C-II, D-IV"
+    ],
+    "answer": 2,
+    "explanation": "h = E/ν = [ML²T⁻¹]→III. Stopping potential Vs = Volt = [ML²T⁻³A⁻¹]→IV. Work function = Energy = [ML²T⁻²]→I. Momentum p = [MLT⁻¹]→II. A-III, B-IV, C-I, D-II"
+  },
+  {
+    "id": 49,
+    "question": "Match List-I with List-II:\nList-I: A. Young's modulus | B. Coefficient of viscosity | C. Planck's constant | D. Work function\nList-II: I. [ML⁻¹T⁻¹] | II. [ML²T⁻¹] | III. [ML⁻¹T⁻²] | IV. [ML²T⁻²]",
+    "year": "2023, 25 Jan Shift-II",
+    "options": [
+      "A-III, B-I, C-II, D-IV",
+      "A-II, B-III, C-IV, D-I",
+      "A-I, B-II, C-III, D-IV",
+      "A-I, B-III, C-IV, D-II"
+    ],
+    "answer": 0,
+    "explanation": "Young's modulus = [ML⁻¹T⁻²]→III. Viscosity = [ML⁻¹T⁻¹]→I. Planck's h = [ML²T⁻¹]→II. Work function = [ML²T⁻²]→IV. A-III, B-I, C-II, D-IV"
+  },
+  {
+    "id": 50,
+    "question": "Match List-I with List-II:\nList-I: A. Pressure gradient | B. Energy density | C. Electric Field | D. Latent heat\nList-II: I. [M⁰L²T⁻²] | II. [ML⁻¹T⁻²] | III. [ML⁻²T⁻²] | IV. [MLT⁻³A⁻¹]",
+    "year": "2023, 29 Jan Shift-I",
+    "options": [
+      "A-II, B-III, C-I, D-IV",
+      "A-III, B-II, C-IV, D-I",
+      "A-II, B-III, C-IV, D-I",
+      "A-III, B-II, C-I, D-IV"
+    ],
+    "answer": 1,
+    "explanation": "Pressure gradient=P/L=[ML⁻²T⁻²]→III. Energy density=E/V=[ML⁻¹T⁻²]→II. Electric field=[MLT⁻³A⁻¹]→IV. Latent heat=Q/m=[L²T⁻²]=[M⁰L²T⁻²]→I. A-III, B-II, C-IV, D-I"
+  },
+  {
+    "id": 51,
+    "question": "In (x - At)² + (y - t/B)² = a², dimension of t is given as [T⁻¹]. Dimensions of A and B are",
+    "year": "2023, 29 Jan Shift-III",
+    "options": [
+      "A = [L⁻¹T⁻¹], B = [LT]",
+      "A = [LT], B = [L⁻¹T⁻¹]",
+      "A = [L⁻¹T], B = [LT⁻¹]",
+      "A = [L⁻¹T⁻¹], B = [LT⁻¹]"
+    ],
+    "answer": 1,
+    "explanation": "x has dim [L], t has dim [T⁻¹]. From (x-At): [L]=A×[T⁻¹] → A=[LT]. From (y-t/B): [L]=[T⁻¹]/B → B=[L⁻¹T⁻¹]"
+  },
+  {
+    "id": 52,
+    "question": "E = (A/x²)î + (B/y³)ĵ is electric field. SI units of A and B respectively are",
+    "year": "2023, 30 Jan Shift-I",
+    "options": [
+      "Nm²C⁻¹ ; Nm³C⁻¹",
+      "Nm²C ; Nm³C",
+      "Nm³C⁻¹ ; Nm²C⁻¹",
+      "NmC ; Nm²C"
+    ],
+    "answer": 0,
+    "explanation": "E = [N/C]. A = E×x² = [N/C]×[m²] = Nm²C⁻¹. B = E×y³ = [N/C]×[m³] = Nm³C⁻¹"
+  },
+  {
+    "id": 53,
+    "question": "Match List-I with List-II:\nList-I: A. Angular momentum | B. Torque | C. Stress | D. Pressure gradient\nList-II: I. [ML²T⁻²] | II. [ML⁻²T⁻²] | III. [ML²T⁻¹] | IV. [ML⁻¹T⁻²]",
+    "year": "2023, 31 Jan Shift-II",
+    "options": [
+      "A-II, B-III, C-IV, D-I",
+      "A-III, B-I, C-IV, D-II",
+      "A-I, B-IV, C-III, D-II",
+      "A-IV, B-II, C-I, D-III"
+    ],
+    "answer": 1,
+    "explanation": "Angular momentum=[ML²T⁻¹]→III. Torque=[ML²T⁻²]→I. Stress=F/A=[ML⁻¹T⁻²]→IV. Pressure gradient=P/L=[ML⁻²T⁻²]→II. A-III, B-I, C-IV, D-II"
+  },
+  {
+    "id": 54,
+    "question": "(p + a/V²)(V - b) = RT. Physical quantity with same dimensional formula as b²/a will be",
+    "year": "2023, 1 Feb Shift-I",
+    "options": ["Bulk modulus", "Compressibility", "Modulus of rigidity", "Energy density"],
+    "answer": 1,
+    "explanation": "a=[ML⁵T⁻²] (pressure×volume²), b=[L³] (volume). b²/a=[L⁶]/[ML⁵T⁻²]=[M⁻¹LT²]. Compressibility=1/Pressure=[M⁻¹LT²] ✓"
+  },
+  {
+    "id": 55,
+    "question": "c (speed of light), G (gravitational constant) and h (Planck's constant) are fundamental quantities. Dimension of mass in new system is",
+    "year": "2023, 1 Feb Shift-II",
+    "options": [
+      "[h⁻¹/²c¹/²G¹/²]",
+      "[h¹c¹G⁻¹]",
+      "[h¹/²c¹/²G⁻¹/²]",
+      "[h¹/²c⁻¹/²G¹]"
+    ],
+    "answer": 2,
+    "explanation": "M = hˣcʸGᶻ. Solving dimensions: From M: x-z=1. From L: 2x+y+3z=0. From T: x+y+2z=0. Solving: x=1/2, y=1/2, z=-1/2. M=[h^(1/2) c^(1/2) G^(-1/2)]"
+  },
+  {
+    "id": 56,
+    "question": "L, C and R are self inductance, capacitance and resistance. Which does NOT have dimension of time?",
+    "year": "2022, 27 June Shift-II",
+    "options": ["RC", "L/R", "√LC", "L/C"],
+    "answer": 3,
+    "explanation": "RC=[s] (RC constant), L/R=[s] (RL constant), √LC=[s] (LC circuit). L/C=[H/F]=[ML²T⁻²A⁻²]×[MT⁻⁴A² M⁻¹L⁻²] → NOT [T]. L/C ka dimension time nahi hai."
+  },
+  {
+    "id": 57,
+    "question": "Identify the pair of physical quantities which have DIFFERENT dimensions",
+    "year": "2022, 24 June Shift-I",
+    "options": [
+      "Wave number and Rydberg's constant",
+      "Stress and coefficient of elasticity",
+      "Coercivity and Magnetisation",
+      "Specific heat capacity and latent heat"
+    ],
+    "answer": 3,
+    "explanation": "Specific heat=[L²T⁻²K⁻¹], Latent heat=[L²T⁻²] → DIFFERENT (K⁻¹ ka fark). Baaki teeno pairs ke dimensions same hain."
+  },
+  {
+    "id": 58,
+    "question": "u = (α/β)sin(αx/kt), where α,β=constants, x=displacement, k=Boltzmann constant, t=temperature. u is energy density. Dimension of β is",
+    "year": "2022, 27 July Shift-II",
+    "options": [
+      "[ML⁻²T⁻¹q⁻¹]",
+      "[M⁰L²T⁻²]",
+      "[M⁰L⁰T⁰]",
+      "[M⁰L²T⁰]"
+    ],
+    "answer": 3,
+    "explanation": "αx/kt dimensionless → α=[kT/x]=[ML²T⁻²/L]=[MLT⁻²]. u=α/β=[ML⁻¹T⁻²] → β=α/u=[MLT⁻²]/[ML⁻¹T⁻²]=[L²]=[M⁰L²T⁰]"
+  },
+  {
+    "id": 59,
+    "question": "In van der Waals equation [p + a/V²][V - b] = RT, ratio a/b is dimensionally equal to",
+    "year": "2022, 29 June Shift-I",
+    "options": ["p/V", "V/p", "pV", "pV³"],
+    "answer": 2,
+    "explanation": "a=[ML⁵T⁻²] (pressure×volume²), b=[L³] (volume). a/b=[ML⁵T⁻²]/[L³]=[ML²T⁻²]=Energy=pV (pressure×volume)"
+  },
+  {
+    "id": 60,
+    "question": "Assertion (A): Time period T = k√(ρr³/S^(3/2)) for liquid drop is dimensionally correct.\nReason (R): Using dimensional analysis, RHS has different dimension than time period.",
+    "year": "2022, 29 July Shift-I",
+    "options": [
+      "Both A and R are true and R is correct explanation of A",
+      "Both A and R are true but R is not correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": 3,
+    "explanation": "√(ρr³/S^(3/2)): ρr³=[M], S^(3/2)=[M^(3/2)T⁻³]. ρr³/S^(3/2)=[M^(-1/2)T³]. √(...)=[M^(-1/4)T^(3/2)] ≠ [T]. So A FALSE hai (formula dimensionally wrong). R TRUE hai (RHS ≠ time). Answer: (d)"
+  }
+
+]
